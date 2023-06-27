@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>
+            EAST DELHI PUBLIC SCHOOL ADDMISSION FORM
+        </title>
+        <style>
+                        .admission-form {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admission-form td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.admission-form label {
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+
+.back-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.back-btn:hover {
+  background-color: #ff6659;
+}
+        </style>
+    </head>
+    <body>
+<form>
+    <table class="admission-form">
+        <tr>
+            <td><label for="picture">Picture:</label></td>
+            <td><input type="file" id="picture" name="picture" class="input-field" accept="image/*" /></td>
+          </tr>
+        <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name" class="input-field" /></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" class="input-field" /></td>
+      </tr>
+      <tr>
+        <td><label for="phone">Phone:</label></td>
+        <td><input type="tel" id="phone" name="phone" class="input-field" /></td>
+      </tr>
+      <tr>
+        <td><label for="address">Address:</label></td>
+        <td><textarea id="address" name="address" class="input-field"></textarea></td>
+      </tr>
+      <tr class="class-section">
+        <td><label for="class">Class:</label></td>
+        <td>
+          <select id="class" name="class" class="input-field">
+            <option value="">Select a class</option>
+            <option value="playway">Playway</option>
+            <option value="nursery">Nursery</option>
+            <option value="kindergarten">Kindergarten</option>
+            <option value="1">Class 1</option>
+            <option value="2">Class 2</option>
+            <option value="3">Class 3</option>
+            <option value="4">Class 4</option>
+            <option value="5">Class 5</option>
+            <option value="6">Class 6</option>
+            <option value="7">Class 7</option>
+            <option value="8">Class 8</option>
+            <option value="9">Class 9</option>
+            <option value="9">Class 11</option>
+          </select>
+        </td>
+      </tr>
+      <tr class="course-section">
+        <td><label for="course">Course:</label></td>
+        <td>
+          <select id="course" name="course" class="input-field">
+            <option value="">Select a course</option>
+            <option value="computer">Computer Science</option>
+            <option value="business">Business Administration</option>
+            <option value="engineering">Engineering</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="1">
+          <button class="back-btn"><a href="Index.html">Back</a></button>
+         </td>
+        <td colspan="1" style="text-align: center;">
+          <input type="submit" value="Submit" class="submit-btn" />
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+  </html>
